@@ -1,0 +1,230 @@
+.menuSocialStartMargin {
+    margin-top: 10%;
+}
+
+.menuMainItem {
+    margin: 10% 0%;
+    text-transform: uppercase;
+}
+
+.menuSubItem {
+    margin: 4px 0px;
+}
+
+.menuLangItem {
+    margin: 30% 0%;
+    color: #fff;
+}
+
+.menuMainItem {
+    height: 25px;
+    font-family: Gotham;
+    font-size: 25px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.menuSubItem {
+    height: 18px;
+    font-family: Campton;
+    font-size: 15px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #000000;
+}
+
+.menuSocialItem .socialText {
+    max-width: 32px;
+    max-height: 32px;
+    padding: 15%;
+}
+
+.menuTextContainer {
+    margin: 0% 0% 50% 0%;
+}
+
+.menuSocialContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menuSocialBottom {
+    position: fixed;
+    bottom: 10%;
+    width: 10%;
+}
+
+.subMenu {
+    list-style-type: none;
+}
+
+.menu .menuSubItem li {
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.menu li.menuMainItem {
+    margin: 10% 0%;
+}
+
+.menuToggle input:checked ~ ul {
+    transform: none;
+}
+
+.menuToggle {
+    display: block;
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    z-index: 10000;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.menuToggle input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    right: -5px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 10001;
+}
+
+.menuToggle .menuInput {
+    display: block;
+    width: 60px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    right: 50px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 10001;
+}
+
+.menuToggle .menuPreText {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    right: 3em;
+    opacity: 1;
+    z-index: 10001;
+    text-transform: uppercase;
+    color: #019ee0;
+    font-size: 1.5em;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    color 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    opacity 0.55s ease;
+    -webkit-touch-callout: none;
+}
+
+.menuToggle span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #019ee0;
+    border-radius: 3px;
+    z-index: 10000;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+    opacity 0.55s ease;
+}
+
+.menuToggle span:first-child {
+    transform-origin: 0% 0%;
+}
+
+.menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+
+.menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #fff;
+}
+
+.menuToggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.menuToggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    width: 350px;
+    height: 2000px;
+    margin: -100px 0 0 -250px;
+    padding: 50px;
+    padding-top: 125px;
+    opacity: 1;
+    background-color: #019ee0;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+@media (max-width: 550px) and (min-width: 400px) {
+    .menu {
+        width: 300px;
+        margin: -100px 0 0 -200px;
+    }
+}
+
+@media (max-width: 399px) and (min-width: 300px) {
+    .menu {
+        width: 250px;
+        margin: -100px 0 0 -150px;
+    }
+
+    .menuMainItem {
+        font-size: 18px !important;
+    }
+
+    .menuSubItem {
+        font-size: 14px !important;
+    }
+
+    .menuLangItem {
+        font-size: 16px !important;
+    }
+
+    .menuSocialItem {
+        font-size: 12px !important;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}

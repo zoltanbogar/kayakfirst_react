@@ -1,0 +1,13 @@
+.Content{
+	margin-top: 0px;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+@font-face { font-family: Gotham; src: url('../../assets/fonts/Gotham-Bold.otf'); }
+@font-face { font-family: Gotham-Light; src: url('../../assets/fonts/Gotham-Light.otf'); }
+@font-face { font-family: Gotham-Italic; src: url('../../assets/fonts/Gotham-BookItalic.otf'); }
+@font-face { font-family: Gotham-Ultra; src: url('../../assets/fonts/Gotham Ultra.otf'); }
+@font-face { font-family: Campton; src: url('../../assets/fonts/Campton-BoldDemo.otf'); }
+@font-face { font-family: Campton-Light; src: url('../../assets/fonts/Campton-LightDEMO.otf'); }

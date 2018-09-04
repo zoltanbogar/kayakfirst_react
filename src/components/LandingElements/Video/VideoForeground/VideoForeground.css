@@ -1,0 +1,8 @@
+.VideoForeground {
+    position: absolute;
+    z-index: 9999;
+    top: 25%;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}

@@ -1,0 +1,15 @@
+.MainTitle {
+    width: 100%;
+    font-family: Gotham;
+    font-size: 75px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    align-self: center;
+    text-transform: uppercase;
+    margin-bottom: 2.5%;
+    color: #019ee0;
+}

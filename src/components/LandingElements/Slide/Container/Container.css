@@ -1,0 +1,36 @@
+.textHolder3 {
+    margin: auto;
+    padding-left: 5%;
+}
+
+.descriptionText3 {
+    font-family: Campton-Light;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin: 13px 5%;
+}
+
+.imageHolder3 {
+    padding-right: 5%;
+    align-self: flex-end;
+}
+
+.titleText3 {
+    font-family: Campton;
+    font-size: 60px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin: 13px 5%;
+    text-transform: uppercase;
+}

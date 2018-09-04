@@ -1,0 +1,19 @@
+.Logo{
+	width: 75%;
+	font-family: Gotham-Italic;
+	font-size: 28px;
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+	line-height: 1.4;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #000;
+	padding-top: 3px;
+}
+
+.Logo img{
+	max-width: 100%;
+	height: auto;
+}
+

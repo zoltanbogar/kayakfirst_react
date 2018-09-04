@@ -1,0 +1,8 @@
+.secondSlideLanding {
+    padding-top: 5%;
+    background-color: #019ee0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}

@@ -1,0 +1,18 @@
+.FooterContainer {
+    background-color: #191919;
+    padding: 1.5% 6%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.footerSlideLogoCol {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerSlideLogoContainer {
+    align-self: flex-end;
+}

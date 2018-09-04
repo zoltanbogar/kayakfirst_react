@@ -1,0 +1,25 @@
+.menuSocialItem {
+    object-fit: contain;
+    font-family: Gotham;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding: 0px;
+}
+
+.menuSocialItem .socialText {
+    max-width: 32px;
+    max-height: 32px;
+    padding: 15%;
+}
+
+@media (max-width: 399px) and (min-width: 300px) {
+    .menuSocialItem {
+        font-size: 12px !important;
+    }
+}
